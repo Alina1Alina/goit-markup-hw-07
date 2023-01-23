@@ -1,0 +1,56 @@
+.hero {
+
+    text-align: center;
+    background-color: var(--bgc-color-hero);
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../images/overlay.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.hero__title {
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+
+    color: var(--white-color-text);
+}
+
+
+.hero__button {
+    min-width: 216px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    border: none;
+
+    color: var(--white-color-text);
+    background-color: var(--accent-text-color);
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
