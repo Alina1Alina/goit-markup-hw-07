@@ -871,6 +871,15 @@ header {
   color: var(--white-color-text);
 }
 
+.form__input[placeholder=E-mail] {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 16px;
+}
+
 .form__input {
   position: relative;
   width: 358px;
@@ -879,14 +888,6 @@ header {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-}
-.form__input[placeholder=E-mail] {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  padding-left: 16px;
 }
 
 .button__form {
