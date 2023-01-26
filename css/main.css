@@ -889,7 +889,6 @@ header {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  padding-left: 16px;
 }
 
 .form__input:-ms-input-placeholder {
@@ -898,7 +897,6 @@ header {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  padding-left: 16px;
 }
 
 .form__input::placeholder {
@@ -907,7 +905,6 @@ header {
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  padding-left: 16px;
 }
 
 .button__form {
